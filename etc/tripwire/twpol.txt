@@ -1,0 +1,35 @@
+/etc -> +p-p;
+/usr -> +p-p;
+/bin -> +p-p;
+/lib -> +p-p;
+/var -> +p-p;
+/srv -> +p-p;
+
+# Ignore these
+!/etc/*.bak;
+!/etc/*.rpmnew;
+!/root/.cache;
+!/home/Varmistus;
+!/home/Leda-home-borg;
+!/home/backup/siirto;
+!/home/Public;
+!/var/log;
+!/var/tmp;
+!/var/cache;
+!/var/lock;
+!/var/run;
+!/var/lib/mongodb/journal;
+!/var/lib/clamav;
+!/var/lib/mlocate;
+!/var/lib/postgresql;
+!/var/lib/mysql;
+!/var/lib/docker;
+!/var/lib/nfs;
+!/var/lib/xenstored;
+!/var/lib/ossec/var/run;
+!/var/lib/ossec/logs;
+!/var/lib/ossec/stats;
+!/var/lib/tripwire/report;
+!/var/lib/tripwire/jupiter.twd.bak;
+!/srv/www/htdocs/phpMyAdmin/tmp;
+
