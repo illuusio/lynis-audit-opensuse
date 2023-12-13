@@ -1,5 +1,9 @@
 Port 123456
 
+# If you don't like to have banner just
+# change to Banner none or comment out
+Banner /etc/ssh/sshd_banner
+
 # Supported HostKey algorithms by order of preference.
 HostKey /etc/ssh/ssh_host_ed25519_key
 HostKey /etc/ssh/ssh_host_rsa_key
